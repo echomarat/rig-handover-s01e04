@@ -77,3 +77,16 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+- #1 Digest types: DigestRow and readNight signature
+- #2 Run log reader: readNight
+- #3 Digest page: GET /digest/:night
+- #4 Digest JSON: GET /api/digest/:night
+- #5 Board links each night to its digest, with counts
+- #6 Route tests for the digest page and JSON
+- #7 Preview: save the page as one HTML file, host it, send the link
+- #8 Clean up: take the marker off the preview and archive the plan
+
+All at https://github.com/echomarat/rig-handover-s01e04/issues (label `plan:morning-digest`).
